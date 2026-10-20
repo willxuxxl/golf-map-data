@@ -4,6 +4,15 @@ Free downloads of the OpenStreetMap-derived geometry used in the corresponding R
 
 ## Downloads
 
+### Royal Wellington books - Version 1.0
+
+[Download matching OSM data - 20 October 2026 v1](https://github.com/willxuxxl/golf-map-data/releases/download/royal-wellington-v1-2026-10-20/Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip)
+
+[View release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/royal-wellington-v1-2026-10-20).
+
+Heretaunga layout: 18 OSM routes and their mapped greens, with the exact two-pass display boundaries and derived centres used by Royal Wellington book Version 1.0. Includes source/projected geometry, mapped fairways, bunkers, tees, watercourses and scrub, plus neighbouring-hole context. The user-supplied tee photograph and all transcribed event/club tee values are excluded, as are all LINZ data and models, book PDFs and brand assets.
+
+
 ### Windross Farm books - Version 4.0
 
 [Download matching OSM data - 20 October 2026 v4](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip)
