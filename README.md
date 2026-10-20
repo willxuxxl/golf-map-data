@@ -1,6 +1,6 @@
 # Will Xu Golf Map Data
 
-Free downloads of the OpenStreetMap-derived geometry used in the corresponding Remuera and Windross Farm practice-book projects.
+Free downloads of the OpenStreetMap-derived geometry used in the corresponding Remuera, Windross Farm and Royal Wellington practice-book projects.
 
 ## Downloads
 
