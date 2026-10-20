@@ -4,6 +4,16 @@ Free downloads of the OpenStreetMap-derived geometry used in the corresponding R
 
 ## Downloads
 
+### Windross Farm books - Version 4.0
+
+[Download matching OSM data - 20 October 2026 v4](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip)
+
+[View v4 release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/windross-v4-2026-10-20).
+
+This release includes the exact two-pass rounded OSM geometry and green centres used by book Version 4.0, its original source geometries, 18 hole routes, route-based fairway ownership and all five mapped scrub features. It does not replace the earlier releases below.
+
+### Earlier editions / Remuera
+
 [View the versioned data release](https://github.com/willxuxxl/golf-map-data/releases/tag/data-2026-10-20).
 
 - [Remuera OSM data — 2026-10-20 v2](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Remuera_OSM_Derived_Data_2026-10-20_v2.zip)
@@ -16,7 +26,7 @@ Downloads are free of charge. Keep the version that corresponds to your book. Ol
 Each archive contains a machine-readable geometry database, a filtered excerpt of the original OSM ways and nodes, English documentation, an ODbL licence notice, provenance and SHA-256 checksums.
 
 - **Remuera:** 18 mapped hole routes and 17 OSM-derived green display boundaries. The original OSM Hole 4 green is included only as a historical source reference; the book's aerial-redrawn Hole 4 boundary is excluded.
-- **Windross Farm:** 18 mapped hole routes and OSM-sourced greens, fairways, bunkers, tees and water. Three separately aerial-interpreted sand patches are excluded.
+- **Windross Farm:** 18 mapped hole routes and OSM-sourced greens, fairways, bunkers, tees and water; v4 also includes five mapped scrub features. Three separately aerial-interpreted sand patches are excluded.
 
 Projected geometry uses EPSG:2193 (NZTM2000), in metres. The OSM XML excerpt uses explicitly named WGS84 latitude and longitude fields. See each archive's README for details.
 
