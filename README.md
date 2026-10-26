@@ -1,8 +1,16 @@
 # Will Xu Golf Map Data
 
-Free downloads of the OpenStreetMap-derived geometry used in the corresponding Remuera, Windross Farm and Royal Wellington practice-book projects.
+Free downloads of the OpenStreetMap-derived geometry used in the corresponding Remuera, Windross Farm, Royal Wellington and Titirangi practice-book projects.
 
 ## Downloads
+
+### Titirangi Golf Club books - Version 1.0
+
+[Download matching OSM data - 27 October 2026 v1](https://github.com/willxuxxl/golf-map-data/releases/download/titirangi-v1-2026-10-27/Titirangi_Golf_Club_OSM_Only_2026-10-27.zip)
+
+[View release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/titirangi-v1-2026-10-27).
+
+Includes 18 mapped hole routes and matched greens, original OSM ways/nodes actually used, two-pass rounded derivative boundaries and derived green centres. It excludes all LINZ imagery and terrain, official scorecard values, book PDFs and brand assets. Tee colours and current markers are not spatially verified.
 
 ### Royal Wellington books - Version 1.0
 
@@ -53,4 +61,4 @@ This repository provides the identified OSM component of mixed-source projects; 
 
 Mapped boundaries and starts are approximate; mapped starts are not verified tee positions, and mapped centres are not current pins. The data is not a survey and carries no club endorsement, putting-level accuracy claim or tournament approval. Data is supplied as-is under the applicable licence.
 
-Files were packaged on 20 October 2026 from the saved project snapshots. The date is not a claim of a new survey or new OSM retrieval. Statements inside archives about local-only preparation describe their packaging state before publication here.
+The earlier Remuera, Windross and Royal Wellington files were packaged on 20 October 2026 from saved project snapshots. Titirangi data was retrieved and packaged on 27 October 2026. The date is not a claim of a new survey or new OSM retrieval. Statements inside archives about local-only preparation describe their packaging state before publication here.
