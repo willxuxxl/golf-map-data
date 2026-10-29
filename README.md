@@ -9,11 +9,11 @@ and SHA-256 checksums have changed; use the current checksum attachments.
 
 ## Downloads
 
-- [Titirangi_Golf_Club_OSM_Only_2026-10-27.zip](https://github.com/willxuxxl/golf-map-data/releases/download/titirangi-v1-2026-10-27/Titirangi_Golf_Club_OSM_Only_2026-10-27.zip)
-- [Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/royal-wellington-v1-2026-10-20/Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip)
-- [Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip)
-- [Remuera_OSM_Derived_Data_2026-10-20_v2.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Remuera_OSM_Derived_Data_2026-10-20_v2.zip)
-- [Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip)
+- [Titirangi_Golf_Club_OSM_Only_2026-10-27.zip](https://github.com/willxuxxl/golf-map-data/releases/download/titirangi-v1-2026-10-27/Titirangi_Golf_Club_OSM_Only_2026-10-27.zip?revision=2026-10-29-minimal-disclosure-1)
+- [Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/royal-wellington-v1-2026-10-20/Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip?revision=2026-10-29-minimal-disclosure-1)
+- [Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip?revision=2026-10-29-minimal-disclosure-1)
+- [Remuera_OSM_Derived_Data_2026-10-20_v2.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Remuera_OSM_Derived_Data_2026-10-20_v2.zip?revision=2026-10-29-minimal-disclosure-1)
+- [Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip?revision=2026-10-29-minimal-disclosure-1)
 
 Release pages and their checksum attachments:
 
