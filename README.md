@@ -1,64 +1,77 @@
-# Will Xu Golf Map Data
+# OpenStreetMap data for XYARD golf books
 
-Free downloads of the OpenStreetMap-derived geometry used in the corresponding Remuera, Windross Farm, Royal Wellington and Titirangi practice-book projects.
+Free machine-readable downloads of the identified OSM-derived geographic data.
+Packaging revised 29 October 2026. The final geographic data in these historical
+releases is unchanged; detailed internal processing descriptions, quality-control
+logs and unnecessary editing metadata have been omitted. Tags and download
+filenames are retained so existing printed links continue to work. Package bytes
+and SHA-256 checksums have changed; use the current checksum attachments.
 
 ## Downloads
 
-### Titirangi Golf Club books - Version 1.0
+- [Titirangi_Golf_Club_OSM_Only_2026-10-27.zip](https://github.com/willxuxxl/golf-map-data/releases/download/titirangi-v1-2026-10-27/Titirangi_Golf_Club_OSM_Only_2026-10-27.zip)
+- [Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/royal-wellington-v1-2026-10-20/Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip)
+- [Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip)
+- [Remuera_OSM_Derived_Data_2026-10-20_v2.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Remuera_OSM_Derived_Data_2026-10-20_v2.zip)
+- [Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip)
 
-[Download matching OSM data - 27 October 2026 v1](https://github.com/willxuxxl/golf-map-data/releases/download/titirangi-v1-2026-10-27/Titirangi_Golf_Club_OSM_Only_2026-10-27.zip)
+Release pages and their checksum attachments:
 
-[View release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/titirangi-v1-2026-10-27).
+- [Titirangi v1, 27 October 2026](https://github.com/willxuxxl/golf-map-data/releases/tag/titirangi-v1-2026-10-27)
+- [Royal Wellington / Heretaunga v1, 20 October 2026](https://github.com/willxuxxl/golf-map-data/releases/tag/royal-wellington-v1-2026-10-20)
+- [Windross Farm v4, 20 October 2026](https://github.com/willxuxxl/golf-map-data/releases/tag/windross-v4-2026-10-20)
+- [Remuera v2 and Windross Farm v1, 20 October 2026](https://github.com/willxuxxl/golf-map-data/releases/tag/data-2026-10-20)
 
-Includes 18 mapped hole routes and matched greens, original OSM ways/nodes actually used, two-pass rounded derivative boundaries and derived green centres. It excludes all LINZ imagery and terrain, official scorecard values, book PDFs and brand assets. Tee colours and current markers are not spatially verified.
+## Contents and interpretation
 
-### Royal Wellington books - Version 1.0
+Archives contain the identified geographic data, original OSM objects and
+relevant source IDs, retained source tags, README, licence/provenance records
+and checksums. Original projected geometry is also retained where previously
+provided. The original and final data represent different stages of the same
+identified geographic contents.
 
-[Download matching OSM data - 20 October 2026 v1](https://github.com/willxuxxl/golf-map-data/releases/download/royal-wellington-v1-2026-10-20/Royal_Wellington_OSM_Derived_Data_2026-10-20_v1.zip)
+JSON is documented project JSON, not GeoJSON. Projected coordinates are
+[easting, northing] in NZTM2000 / EPSG:2193, metres. OSM XML uses WGS84 latitude
+and longitude. Preserve closed flags, interior rings and relation memberships;
+open watercourses are not closed water polygons. Final centres, approach
+references and hole assignments remain where supplied.
 
-[View release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/royal-wellington-v1-2026-10-20).
+These are historical data releases, not new surveys or automatic matches for
+later book editions. Their packaging dates do not imply refreshed OSM capture.
+Mapped green centres are area centroids, not daily pins. Tee starts and edges
+are approximate mapped geometry, not verified event tee positions or surveyed
+playing boundaries. Mapped water is not an official penalty-area ruling;
+trees/scrub are not a field survey. Context may include neighbouring holes.
+No club endorsement or tournament approval is claimed.
 
-Heretaunga layout: 18 OSM routes and their mapped greens, with the exact two-pass display boundaries and derived centres used by Royal Wellington book Version 1.0. Includes source/projected geometry, mapped fairways, bunkers, tees, watercourses and scrub, plus neighbouring-hole context. The user-supplied tee photograph and all transcribed event/club tee values are excluded, as are all LINZ data and models, book PDFs and brand assets.
+Remuera has 18 routes and 17 final OSM-derived green boundaries. The original
+Hole 4 OSM green remains only as historical source geometry; the final
+independently aerial-redrawn Hole 4 boundary is outside that OSM release.
+Windross Farm excludes three independently aerial-traced sand patches.
 
+## Licence and scope
 
-### Windross Farm books - Version 4.0
+Copyright [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
+The included OSM database and Will Xu's database adaptation contributions are
+licensed under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
+Preserve the included attribution and licence notices. Reuse, modification,
+redistribution and commercial use are permitted subject to ODbL, including
+applicable share-alike and machine-readable access requirements. No additional
+personal-use-only or non-commercial condition is imposed on this database.
+See the licence for warranty and liability provisions. No trademark rights
+or club endorsement are granted.
 
-[Download matching OSM data - 20 October 2026 v4](https://github.com/willxuxxl/golf-map-data/releases/download/windross-v4-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v4.zip)
+These downloads identify the OSM geographic component. They do not contain
+LINZ imagery, DEM/DSM, point clouds, independent terrain/elevation/slope
+models, independent aerial traces, private club/event scorecards, book PDFs,
+brand assets, editable artwork or production programs. Provider names and
+par/handicap values in retained OSM tags are upstream OSM records, not separate
+provider datasets or verified club scorecards.
 
-[View v4 release notes and checksums](https://github.com/willxuxxl/golf-map-data/releases/tag/windross-v4-2026-10-20).
-
-This release includes the exact two-pass rounded OSM geometry and green centres used by book Version 4.0, its original source geometries, 18 hole routes, route-based fairway ownership and all five mapped scrub features. It does not replace the earlier releases below.
-
-### Earlier editions / Remuera
-
-[View the versioned data release](https://github.com/willxuxxl/golf-map-data/releases/tag/data-2026-10-20).
-
-- [Remuera OSM data — 2026-10-20 v2](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Remuera_OSM_Derived_Data_2026-10-20_v2.zip)
-- [Windross Farm OSM data — 2026-10-20 v1](https://github.com/willxuxxl/golf-map-data/releases/download/data-2026-10-20/Windross_Farm_OSM_Derived_Data_2026-10-20_v1.zip)
-
-Downloads are free of charge. Keep the version that corresponds to your book. Older releases will remain available when new editions are added.
-
-## Included data
-
-Each archive contains a machine-readable geometry database, a filtered excerpt of the original OSM ways and nodes, English documentation, an ODbL licence notice, provenance and SHA-256 checksums.
-
-- **Remuera:** 18 mapped hole routes and 17 OSM-derived green display boundaries. The original OSM Hole 4 green is included only as a historical source reference; the book's aerial-redrawn Hole 4 boundary is excluded.
-- **Windross Farm:** 18 mapped hole routes and OSM-sourced greens, fairways, bunkers, tees and water; v4 also includes five mapped scrub features. Three separately aerial-interpreted sand patches are excluded.
-
-Projected geometry uses EPSG:2193 (NZTM2000), in metres. The OSM XML excerpt uses explicitly named WGS84 latitude and longitude fields. See each archive's README for details.
-
-## Licence and attribution
-
-Map data: © OpenStreetMap contributors. https://www.openstreetmap.org/copyright
-
-The OSM-derived geometry databases and Will Xu's contributions to them are made available under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/). Commercial reuse, modification and redistribution are allowed under that licence. Preserve notices and observe the applicable attribution, share-alike and machine-readable access obligations. See each archive's LICENSE.txt for the scope.
-
-## Scope and limitations
-
-These are OSM-only data releases. They contain no LINZ aerial imagery, elevation raster, derived terrain heat maps, independently aerial-traced geometry, club scorecard data, book PDFs, commercial screenshots, or brand assets. The designed books are not included or licensed by these releases.
-
-This repository provides the identified OSM component of mixed-source projects; it does not establish that every obligation for an entire mixed-source database or a book has been satisfied. Attribution conditions for other sources used in a book remain applicable to that book.
-
-Mapped boundaries and starts are approximate; mapped starts are not verified tee positions, and mapped centres are not current pins. The data is not a survey and carries no club endorsement, putting-level accuracy claim or tournament approval. Data is supplied as-is under the applicable licence.
-
-The earlier Remuera, Windross and Royal Wellington files were packaged on 20 October 2026 from saved project snapshots. Titirangi data was retrieved and packaged on 27 October 2026. The date is not a claim of a new survey or new OSM retrieval. Statements inside archives about local-only preparation describe their packaging state before publication here.
+This repository does not certify that all obligations for a complete mixed
+database under ODbL section 4.6 have been satisfied. Actual additional contents
+and the data used by later book editions must be assessed separately. Other
+providers' book-attribution and licence conditions remain applicable even when
+their datasets are not included here. Original book design and artwork are
+separate from this licensed database. Existing licences and permissions remain
+valid. Previous public copies and Git history are not recalled by this revision.
